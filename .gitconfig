@@ -1,0 +1,57 @@
+[user]
+	name = Tim Kelty
+	email = timkelty@gmail.com
+[credential]
+	helper = osxkeychain
+[core]
+	filemode = true
+  	logallrefupdates = true
+	excludesfile = ~/.dotfiles/.gitignore
+	whitespace = space-before-tab, trailing-space
+	quotepath = false
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[init]
+	templatedir = ~/.dotfiles/.git_template
+[alias]
+	st = status
+	ci = commit
+	br = branch
+	co = checkout
+	df = diff
+	dc = diff --cached
+	hist = log --pretty=oneline -n 20 --graph --abbrev-commit
+	pp = !"echo 'Pull'; git pull; echo 'Push'; git push"
+	sm = submodule
+	smu = submodule update --init
+	me = log --author 'timkelty' --since '2 weeks ago' --pretty='format:%C(cyan)%h%Cgreen %ad %C(yellow)%an %Creset%s'
+[color]
+	ui = auto
+[color "diff"]
+	meta = blue bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+[color "branch"]
+	current = yellow reverse
+	local = yellow bold
+	remote = green bold
+	plain = red bold
+[color "status"]
+	added = yellow
+	changed = green bold
+	untracked = blue bold
+[github]
+	user = timkelty
+	token = 576e77c288647acca6365e978f8306a7eddfded9
+[branch]
+	autosetupmerge = true
+[push]
+	default = current
+[apply]
+	# Detect whitespace errors when applying a patch
+	whitespace = fix

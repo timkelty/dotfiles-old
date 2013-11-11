@@ -1,0 +1,34 @@
+alias sites='cd ~/Sites/'
+alias repos='cd ~/Repos/'
+alias desk='cd ~/Desktop/'
+alias dls='cd ~/Downloads/'
+alias Lib='cd /Library/'
+alias lib='cd ~/Library/'
+alias Supp='cd /Library/Application\ Support/'
+alias supp='cd ~/Library/Application\ Support/'
+alias Prefs='cd /Library/Preferences/'
+alias prefs='cd ~/Library/Preferences/'
+
+# other folders
+alias packages='cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/'
+alias bundles='cd ~/Library/Application\ Support/TextMate/Bundles/'
+
+# misc
+alias st="stree"
+alias profile="$EDITOR_BIN -n $DOTFILES_DIR ~/.oh-my-zsh"
+alias hosts="$EDITOR_BIN -n /etc/hosts"
+alias myip="ifconfig | grep 'inet ' | grep -v 127.0.0.1 | cut -d\   -f2"
+alias rake='noglob rake' # https://github.com/robbyrussell/oh-my-zsh/issues/433
+alias startpg="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
+
+# git
+alias pullall="git submodule foreach git pull origin master"
+alias giti="$EDITOR_BIN .gitignore"
+alias gitc="$EDITOR_BIN .git/config"
+alias gith="$EDITOR_BIN .git/hooks"
+alias gitm="$EDITOR_BIN .gitmodules"
+alias push\?="git cherry -v origin"
+alias lg="legit"
+
+# cap
+alias capd='cap deploy'
