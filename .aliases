@@ -9,6 +9,7 @@ alias supp='cd ~/Library/Application\ Support/'
 alias Prefs='cd /Library/Preferences/'
 alias prefs='cd ~/Library/Preferences/'
 alias packages='cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/'
+alias dot="cd $DOTFILES"
 
 # misc
 alias st="stree"

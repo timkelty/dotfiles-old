@@ -3,7 +3,7 @@
 	helper = osxkeychain
 [core]
 	filemode = true
-  	logallrefupdates = true
+  logallrefupdates = true
 	excludesfile = ~/.dotfiles/.gitignore_global
 	whitespace = space-before-tab, trailing-space
 	quotepath = false
