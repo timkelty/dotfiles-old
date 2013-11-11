@@ -4,6 +4,5 @@ PATH=/usr/local/share/python:$PATH # Add python packages
 PATH=$HOME/bin:$PATH # Binaries
 PATH=/usr/local/opt/coreutils/libexec/gnubin:$PATH # brew install coreutils
 PATH=/Applications/MAMP/Library/bin:bin/php/php5.4.19/bin:$PATH # MAMP
-# PATH=/usr/local/lib/node_modules/.bin:/usr/local/share/npm/bin:$PATH # NPM binaries
 
 export PATH

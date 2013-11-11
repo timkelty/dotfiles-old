@@ -1,17 +1,15 @@
-[user]
-	name = Tim Kelty
-	email = timkelty@gmail.com
+# User info and Github tokens are set in .config (unsourced)
 [credential]
 	helper = osxkeychain
 [core]
 	filemode = true
   	logallrefupdates = true
-	excludesfile = ~/.dotfiles/.gitignore
+	excludesfile = ~/.dotfiles/.gitignore_global
 	whitespace = space-before-tab, trailing-space
 	quotepath = false
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
@@ -28,7 +26,6 @@
 	pp = !"echo 'Pull'; git pull; echo 'Push'; git push"
 	sm = submodule
 	smu = submodule update --init
-	me = log --author 'timkelty' --since '2 weeks ago' --pretty='format:%C(cyan)%h%Cgreen %ad %C(yellow)%an %Creset%s'
 [color]
 	ui = auto
 [color "diff"]
@@ -45,9 +42,6 @@
 	added = yellow
 	changed = green bold
 	untracked = blue bold
-[github]
-	user = timkelty
-	token = 576e77c288647acca6365e978f8306a7eddfded9
 [branch]
 	autosetupmerge = true
 [push]

@@ -1,21 +1,18 @@
 alias sites='cd ~/Sites/'
 alias repos='cd ~/Repos/'
 alias desk='cd ~/Desktop/'
-alias dls='cd ~/Downloads/'
+alias dl='cd ~/Downloads/'
 alias Lib='cd /Library/'
 alias lib='cd ~/Library/'
 alias Supp='cd /Library/Application\ Support/'
 alias supp='cd ~/Library/Application\ Support/'
 alias Prefs='cd /Library/Preferences/'
 alias prefs='cd ~/Library/Preferences/'
-
-# other folders
-alias packages='cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/'
-alias bundles='cd ~/Library/Application\ Support/TextMate/Bundles/'
+alias packages='cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/'
 
 # misc
 alias st="stree"
-alias profile="$EDITOR_BIN -n $DOTFILES_DIR ~/.oh-my-zsh"
+alias profile="$EDITOR_BIN -n $DOTFILES ~/.oh-my-zsh"
 alias hosts="$EDITOR_BIN -n /etc/hosts"
 alias myip="ifconfig | grep 'inet ' | grep -v 127.0.0.1 | cut -d\   -f2"
 alias rake='noglob rake' # https://github.com/robbyrussell/oh-my-zsh/issues/433
@@ -28,7 +25,7 @@ alias gitc="$EDITOR_BIN .git/config"
 alias gith="$EDITOR_BIN .git/hooks"
 alias gitm="$EDITOR_BIN .gitmodules"
 alias push\?="git cherry -v origin"
-alias lg="legit"
+alias gitme="git log --author $(whoami) --since '2 weeks ago' --pretty='format:%C(cyan)%h%Cgreen %ad %C(yellow)%an %Creset%s'"
 
 # cap
 alias capd='cap deploy'
