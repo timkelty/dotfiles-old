@@ -8,12 +8,12 @@ alias Supp='cd /Library/Application\ Support/'
 alias supp='cd ~/Library/Application\ Support/'
 alias Prefs='cd /Library/Preferences/'
 alias prefs='cd ~/Library/Preferences/'
-alias packages='cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/'
+alias st3='cd ~/Library/Application\ Support/Sublime\ Text\ 3/'
 alias dot="cd $DOTFILES"
 
 # misc
 alias st="stree"
-alias profile="$EDITOR_BIN -n $DOTFILES ~/.oh-my-zsh"
+alias profile="$EDITOR_BIN -n $DOTFILES $ZSH"
 alias hosts="$EDITOR_BIN -n /etc/hosts"
 alias myip="ifconfig | grep 'inet ' | grep -v 127.0.0.1 | cut -d\   -f2"
 alias rake='noglob rake' # https://github.com/robbyrussell/oh-my-zsh/issues/433
