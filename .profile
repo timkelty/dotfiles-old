@@ -6,3 +6,6 @@ unset file
 
 # rbenv
 eval "$(rbenv init -)"
+
+# nvm
+source ~/.nvm/nvm.sh
