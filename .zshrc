@@ -3,7 +3,8 @@ source $HOME/.profile
 
 # Oh My Zsh
 DISABLE_UPDATE_PROMPT=true
-plugins=(autojump cap extract gem git github osx pip ssh-agent git-remote-branch grunt)
+COMPLETION_WAITING_DOTS=true
+plugins=(bower rsync rbenv nvm autojump capistrano extract gem git github osx pip ssh-agent git-remote-branch grunt)
 
 # Load Oh My Zsh
 source $ZSH/oh-my-zsh.sh
