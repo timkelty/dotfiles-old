@@ -15,3 +15,6 @@ Thumbs.db
 
 # Sass cache
 .sass-cache*
+
+# Completion
+.cap_tasks~
