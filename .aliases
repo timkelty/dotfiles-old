@@ -18,6 +18,7 @@ alias hosts="$EDITOR_BIN -n /etc/hosts"
 alias myip="ifconfig | grep 'inet ' | grep -v 127.0.0.1 | cut -d\   -f2"
 alias rake='noglob rake' # https://github.com/robbyrussell/oh-my-zsh/issues/433
 alias startpg="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
+alias lll="stat -c '%A %a %n' *"
 
 # git
 alias pullall="git submodule foreach git pull origin master"

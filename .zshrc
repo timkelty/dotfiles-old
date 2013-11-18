@@ -12,5 +12,8 @@ source $ZSH/oh-my-zsh.sh
 # Prompt
 source $DOTFILES/.zsh-theme
 
+# Override with my aliases
+# source $DOTFILES/.aliases
+
 # Turn off annoying auto-correction
 unsetopt correct_all
