@@ -31,6 +31,7 @@ brew install imagemagick
 brew install ghostscript
 brew install rbenv ruby-build
 brew install python
+brew install autojump
 
 # Needed to compile some older Ruby versions
 brew install apple-gcc42
