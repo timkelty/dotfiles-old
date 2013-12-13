@@ -11,3 +11,5 @@ GITHUB_USER="username"
 GITHUB_TOKEN="yourgithubtoken"
 git config --global github.user "$GITHUB_USER"
 git config --global github.token "$GITHUB_TOKEN"
+
+HOMEBREW_GITHUB_API_TOKEN="yourhomebrewgithubtoken"

@@ -8,6 +8,6 @@ export LANG="en_US"
 export LC_ALL="en_US.UTF-8"
 
 # Other
-export HOMEBREW_GITHUB_API_TOKEN="3dd9b312a469ef9efe56063607b2cd4302e07b4e"
 export DOTFILES="$HOME/.dotfiles"
 export ZSH="$HOME/.oh-my-zsh"
+export "$HOMEBREW_GITHUB_API_TOKEN"
