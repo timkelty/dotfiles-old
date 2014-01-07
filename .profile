@@ -9,3 +9,7 @@ eval "$(rbenv init -)"
 
 # nvm
 source ~/.nvm/nvm.sh
+
+# Defeat node errors for max open files
+# http://ghickman.co.uk/2012/02/25/extending-os-x-lions-maxfiles-limit-for-neo4j.html
+launchctl limit maxfiles 16384 32768
