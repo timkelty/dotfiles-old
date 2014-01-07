@@ -19,9 +19,8 @@ brew install findutils
 # Install wget with IRI support
 brew install wget --enable-iri
 
-# Composer
-brew tap josegonzalez/homebrew-php
-brew install josegonzalez/php/composer
+# Needed to compile some older Ruby versions
+brew install apple-gcc42
 
 brew install ack
 brew install git
@@ -32,9 +31,11 @@ brew install ghostscript
 brew install rbenv ruby-build
 brew install python
 brew install autojump
-
-# Needed to compile some older Ruby versions
-brew install apple-gcc42
+brew install tidy --HEAD # HTML5 version
+brew install postgres
+brew install phplint
+brew install composer
 
 # Remove outdated versions from the cellar
 brew cleanup
+
