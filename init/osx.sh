@@ -108,6 +108,15 @@ defaults write com.apple.dock dashboard-in-overlay -bool true
 sudo ln -sf /Applications/Xcode.app/Contents/Applications/iPhone\ Simulator.app /Applications/iOS\ Simulator.app
 
 ###############################################################################
+# Increase maxfiles                                                           #
+###############################################################################
+
+# http://superuser.com/questions/302754/increase-the-maximum-number-of-open-file-descriptors-in-snow-leopard/514049#514049
+echo 'kern.maxfiles=20480' | sudo tee -a /etc/sysctl.conf
+echo -e 'limit maxfiles 8192 20480\nlimit maxproc 1000 2000' | sudo tee -a /etc/launchd.conf
+echo 'ulimit -n 4096' | sudo tee -a /etc/profile
+
+###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 
