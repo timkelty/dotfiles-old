@@ -4,6 +4,7 @@ if [ $1 = 0000000000000000000000000000000000000000 ]; then
 else
   old=$1
 fi
+
 if [ -f Gemfile ] && command -v bundle >/dev/null &&
   git diff --name-only $old $2 | egrep -q '^Gemfile|\.gemspec$'
 then
