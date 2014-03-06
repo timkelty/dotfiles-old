@@ -31,3 +31,4 @@ alias gitme="git log --author $(whoami) --since '2 weeks ago' --pretty='format:%
 
 # cap
 alias capd='cap deploy'
+alias capdc='capd -S composer_method=install'
