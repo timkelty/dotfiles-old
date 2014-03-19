@@ -35,6 +35,7 @@ brew install tidy --HEAD # HTML5 version
 brew install postgres
 brew install phplint
 brew install composer
+brew install sshfs
 
 # Remove outdated versions from the cellar
 brew cleanup
