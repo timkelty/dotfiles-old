@@ -4,6 +4,8 @@ alias desk='cd ~/Desktop/'
 alias dl='cd ~/Downloads/'
 alias Lib='cd /Library/'
 alias lib='cd ~/Library/'
+alias vol='cd ~/Volumes/'
+alias Vol='cd /Volumes/'
 alias Supp='cd /Library/Application\ Support/'
 alias supp='cd ~/Library/Application\ Support/'
 alias Prefs='cd /Library/Preferences/'
@@ -32,3 +34,9 @@ alias gitme="git log --author $(whoami) --since '2 weeks ago' --pretty='format:%
 # cap
 alias capd='cap deploy'
 alias capdc='capd -S composer_method=install'
+
+# rsync
+alias rsync-copy="rsync -av --progress -h"
+alias rsync-move="rsync -av --progress -h --remove-source-files"
+alias rsync-update="rsync -avu --progress -h"
+alias rsync-synchronize="rsync -avu --delete --progress -h"

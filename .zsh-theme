@@ -46,7 +46,7 @@ else
     rvm='%{$fg[yellow]%}[$(rbenv version | sed -e "s/ (set.*$//")]%{$reset_color%} '
   fi
 fi
-local git_branch='$(parse_git_dirty)$(current_branch)%{$GREEN_BOLD%}$(git_prompt_short_sha)%{$RESET_COLOR%}'
+local git_branch='$(parse_git_dirty)$(current_branch)%{$GREEN_BOLD%} %{$RESET_COLOR%}'
 
 
 PROMPT="

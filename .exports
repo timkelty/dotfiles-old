@@ -10,3 +10,4 @@ export LC_ALL="en_US.UTF-8"
 # Other
 export DOTFILES="$HOME/.dotfiles"
 export ZSH="$HOME/.oh-my-zsh"
+export RMOUNT_DIR="$HOME/Volumes"

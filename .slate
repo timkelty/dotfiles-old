@@ -27,7 +27,7 @@ bind pad6:cmd ${righthalf}
 bind pad7:cmd ${leftmost}
 bind pad8:cmd push top bar-resize:screenSizeY/2
 bind pad9:cmd ${rightmost}
-bind pad.:cmd throw next
+bind pad.:cmd throw next resize
 
 bind up:cmd;alt;ctrl    ${full}
 bind down:cmd;alt;ctrl  ${centermost}
