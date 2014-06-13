@@ -36,6 +36,7 @@ brew install postgres
 brew install phplint
 brew install composer
 brew install sshfs
+brew install ssh-copy-id
 
 # Remove outdated versions from the cellar
 brew cleanup
