@@ -16,7 +16,7 @@ source $ZSH/oh-my-zsh.sh
 source $DOTFILES/.zsh-theme
 
 # Override with my aliases
-# source $DOTFILES/.aliases
+source $DOTFILES/.aliases
 
 # Turn off annoying auto-correction
 DISABLE_CORRECTION="true"
