@@ -21,3 +21,11 @@ Thumbs.db
 
 # Vagrant
 .vagrant
+
+# NPM
+node_modules
+
+# mversion
+.mversionrc
+
+npm-debug.log

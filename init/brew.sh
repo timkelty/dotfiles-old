@@ -38,6 +38,10 @@ brew install composer
 brew install sshfs
 brew install ssh-copy-id
 
+# Fix annoying subl bug
+# https://github.com/SublimeText/Issues/issues/27
+brew tap paulp/extras && brew install subl
+
 # Remove outdated versions from the cellar
 brew cleanup
 
