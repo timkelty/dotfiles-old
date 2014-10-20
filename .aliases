@@ -12,6 +12,8 @@ alias Prefs='cd /Library/Preferences/'
 alias prefs='cd ~/Library/Preferences/'
 alias st3='cd ~/Library/Application\ Support/Sublime\ Text\ 3/'
 alias dot="cd $DOTFILES"
+alias fus="cd ~/Fusionary/"
+alias proj="cd ~/Projects/"
 
 # misc
 alias st="stree"
@@ -21,6 +23,7 @@ alias myip="ifconfig | grep 'inet ' | grep -v 127.0.0.1 | cut -d\   -f2"
 alias rake='noglob rake' # https://github.com/robbyrussell/oh-my-zsh/issues/433
 alias startpg="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
 alias lll="stat -c '%A %a %n' *"
+alias ll="ls -lash"
 
 # git
 alias pullall="git submodule foreach git pull origin master"
@@ -43,3 +46,6 @@ alias rsync-synchronize="rsync -avu --delete --progress -h"
 
 # grunt
 alias gr="grunt"
+
+# rails
+alias railss="./script/rails server"
