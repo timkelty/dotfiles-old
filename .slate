@@ -7,28 +7,29 @@ config checkDefaultsOnLoad true
 config focusCheckWidthMax 3000
 
 # Abstract positions
-alias full          move screenOriginX;screenOriginY                  screenSizeX;screenSizeY
-alias lefthalf      move screenOriginX;screenOriginY                  screenSizeX/2;screenSizeY
-alias righthalf     move screenOriginX+screenSizeX/2;screenOriginY    screenSizeX/2;screenSizeY
-alias rightmost     move screenOriginX+screenSizeX*0.4;screenOriginY  screenSizeX*0.6;screenSizeY
-alias rightless     move screenOriginX+screenSizeX*0.6;screenOriginY  screenSizeX*0.4;screenSizeY
-alias leftmost      move screenOriginX;screenOriginY                  screenSizeX*0.6;screenSizeY
-alias leftless      move screenOriginX;screenOriginY                  screenSizeX*0.4;screenSizeY
-alias centermost    move screenOriginX+screenSizeX*0.125;screenOriginY screenSizeX*0.75;screenSizeY
+alias full move screenOriginX;screenOriginY screenSizeX;screenSizeY
+alias lefthalf move screenOriginX;screenOriginY screenSizeX/2;screenSizeY
+alias righthalf move screenOriginX+screenSizeX/2;screenOriginY screenSizeX/2;screenSizeY
+alias topleft corner top-left resize:screenSizeX/2;screenSizeY/2
+alias topright corner top-right resize:screenSizeX/2;screenSizeY/2
+alias bottomleft corner bottom-left resize:screenSizeX/2;screenSizeY/2
+alias bottomright corner bottom-right resize:screenSizeX/2;screenSizeY/2
+alias centermost move screenOriginX+screenSizeX*0.125;screenOriginY screenSizeX*0.75;screenSizeY
 
 # Basic location Bindings
-bind pad0:cmd ${full}
-bind pad1:cmd ${leftless}
+bind pad1:cmd ${bottomleft}
 bind pad2:cmd push bottom bar-resize:screenSizeY/2
-bind pad3:cmd ${rightless}
+bind pad3:cmd ${bottomright}
 bind pad4:cmd ${lefthalf}
 bind pad5:cmd ${centermost}
 bind pad6:cmd ${righthalf}
-bind pad7:cmd ${leftmost}
+bind pad7:cmd ${topleft}
 bind pad8:cmd push top bar-resize:screenSizeY/2
-bind pad9:cmd ${rightmost}
+bind pad9:cmd ${topright}
+bind pad0:cmd ${full}
 bind pad.:cmd throw next resize
 
+# No numkeys
 bind up:cmd;alt;ctrl    ${full}
 bind down:cmd;alt;ctrl  ${centermost}
 bind right:cmd;alt;ctrl ${righthalf}
