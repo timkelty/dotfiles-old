@@ -4,7 +4,7 @@ source $HOME/.zprofile
 # Oh My Zsh
 DISABLE_UPDATE_PROMPT=true
 COMPLETION_WAITING_DOTS=true
-plugins=(jira bower nvm autojump capistrano extract gem git github osx pip ssh-agent git-remote-branch grunt zsh-syntax-highlighting)
+plugins=(jira bower nvm autojump capistrano extract gem git osx pip ssh-agent git-remote-branch grunt zsh-syntax-highlighting)
 
 # JIRA Plugin
 JIRA_URL="https://fusionary.jira.com"
