@@ -24,6 +24,7 @@ alias rake='noglob rake' # https://github.com/robbyrussell/oh-my-zsh/issues/433
 alias startpg="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
 alias lll="stat -c '%A %a %n' *"
 alias ll="ls -lash"
+alias cwd="pwd"
 
 # git
 alias pullall="git submodule foreach git pull origin master"

@@ -32,3 +32,5 @@ npm-debug.log
 
 # global ignore folders
 gitignore
+
+.bumprc

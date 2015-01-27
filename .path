@@ -1,7 +1,7 @@
 # Path
 PATH=$HOME/bin:$PATH # Binaries
 PATH=/usr/local/opt/coreutils/libexec/gnubin:$PATH # brew install coreutils
-PATH=/Applications/MAMP/Library/bin:bin/php/php5.4.19/bin:$PATH # MAMP
+PATH=/Applications/MAMP/Library/bin:$PATH # MAMP
 PATH=/usr/local/bin:/usr/local/sbin:$PATH # Add Homebrew binaries
 PATH=/usr/local/share/python:$PATH # Add python packages
 PATH=$HOME/.dotfiles/init:$PATH # init dotfiles

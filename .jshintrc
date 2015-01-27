@@ -1,0 +1,19 @@
+{
+  "predef": [ "-Promise" ],
+  "latedef": "nofunc",
+  "globals": {
+    "module": false,
+    "require": false,
+    "define": false,
+    "$LAB": true,
+    "_": true,
+    "Lazy": false,
+    "FM": true,
+    "MediaElementPlayer": false,
+    "mejs": false,
+    "google": true,
+    "Modernizr": true,
+    "_gaq": true,
+    "_gat": true
+  }
+}
