@@ -4,7 +4,7 @@ source $HOME/.zprofile
 # Oh My Zsh
 DISABLE_UPDATE_PROMPT=true
 COMPLETION_WAITING_DOTS=true
-plugins=(jira bower nvm autojump capistrano extract gem git osx pip ssh-agent git-remote-branch grunt zsh-syntax-highlighting)
+plugins=(bower nvm autojump capistrano extract gem osx pip ssh-agent git-remote-branch grunt gulp zsh-syntax-highlighting)
 
 # JIRA Plugin
 JIRA_URL="https://fusionary.jira.com"
@@ -17,6 +17,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Override with my aliases
 source $DOTFILES/.aliases
+source $DOTFILES/.functions
 
 # Turn off annoying auto-correction
 DISABLE_CORRECTION="true"
@@ -25,3 +26,9 @@ DISABLE_CORRECTION="true"
 # https://github.com/sindresorhus/pure
 autoload -U promptinit && promptinit
 prompt pure
+
+# Autocompletion
+eval "$(gulp --completion=zsh)"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

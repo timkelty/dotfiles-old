@@ -1,7 +1,11 @@
 {
-  "predef": [ "-Promise" ],
+  "predef": ["-Promise"],
+  "undef": true,
+  "unused": false,
   "latedef": "nofunc",
   "globals": {
+    "Promise": true,
+    "console": false,
     "module": false,
     "require": false,
     "define": false,
@@ -14,6 +18,10 @@
     "google": true,
     "Modernizr": true,
     "_gaq": true,
-    "_gat": true
+    "_gat": true,
+    "it": false,
+    "beforeEach": false,
+    "afterEach": false,
+    "describe": false
   }
 }

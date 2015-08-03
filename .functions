@@ -69,3 +69,16 @@ function o() {
                 open "$@"
         fi
 }
+
+# Run `dig` and display the most useful info
+function digga() {
+        dig +nocmd "$1" any +multiline +noall +answer;
+}
+
+function g() {
+        local cmd=gulp
+        if [[ -e Gruntfile.js ]]; then
+        cmd=grunt
+        fi
+        ${cmd} $@
+}
