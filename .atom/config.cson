@@ -1,0 +1,48 @@
+"*":
+  "exception-reporting":
+    userId: "a81d3f92-6afc-f1c5-de14-271b6cb3b1ac"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "one-dark-ui"
+      "tomorrow-night-eighties-syntax"
+    ]
+    excludeVcsIgnoredPaths: false
+    disabledPackages: [
+      "linter-csslint"
+      "remote-atom"
+    ]
+    packagesWithKeymapsDisabled: [
+      "emmet"
+    ]
+  linter: {}
+  "merge-conflicts": {}
+  "tree-view":
+    hideIgnoredNames: true
+  "linter-htmlhint": {}
+  "atom-alignment": {}
+  "find-and-replace":
+    openProjectFindResultsInRightPane: true
+  "linter-jscs":
+    fixOnSave: true
+    esnext: true
+  "linter-php": {}
+  "atom-beautify":
+    _analyticsUserId: "669b6009-2062-4589-8996-5aaccb1f8ed0"
+    html_wrap_attributes: "force"
+  editor:
+    invisibles: {}
+    fontSize: 16
+  "js-autoimport": {}
+  blame: {}
+  "git-blame":
+    columnWidth: 300
+  tabs:
+    usePreviewTabs: true
+  "remote-atom":
+    keep_alive: true
+    launch_at_startup: true
+  emmet: {}
+  "close-tags": {}
+  "emmet-simplified": {}

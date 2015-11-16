@@ -1,0 +1,22 @@
+".source.js":
+  "Promise":
+    prefix: "promise",
+    body: """
+    new Promise((resolve, reject) => {
+    \t${0}
+    });
+    """
+  "Promise.then":
+    prefix: "then"
+    body: """
+    then(${2:value} => {
+    \t${0}
+    });
+    """
+  "Promise.catch":
+    prefix: "catch"
+    body: """
+    catch(${2:err} => {
+    \t${0}
+    });
+    """
