@@ -4,7 +4,7 @@ source $HOME/.zprofile
 # Oh My Zsh
 DISABLE_UPDATE_PROMPT=true
 COMPLETION_WAITING_DOTS=true
-plugins=(bower nvm autojump capistrano extract gem osx pip ssh-agent git-remote-branch grunt gulp zsh-syntax-highlighting)
+plugins=(bower nvm autojump extract gem osx pip ssh-agent git-remote-branch grunt gulp zsh-syntax-highlighting safe-paste)
 
 # JIRA Plugin
 JIRA_URL="https://fusionary.jira.com"
@@ -32,3 +32,5 @@ eval "$(gulp --completion=zsh)"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+test -e ${HOME}/.iterm2_shell_integration.zsh && source ${HOME}/.iterm2_shell_integration.zsh

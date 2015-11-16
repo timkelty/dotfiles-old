@@ -1,7 +1,7 @@
 # Editor
-export EDITOR_BIN="subl"
-export EDITOR="$EDITOR_BIN -w"
-export GIT_EDITOR="$EDITOR_BIN -w"
+export EDITOR_BIN="atom"
+export EDITOR="$EDITOR_BIN --wait"
+export GIT_EDITOR="vim"
 
 # Prefer US English and use UTF-8
 export LANG="en_US"
