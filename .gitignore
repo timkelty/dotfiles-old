@@ -1,2 +1,4 @@
 .config
 .gitconfig
+.atom/.apm
+.atom/packages

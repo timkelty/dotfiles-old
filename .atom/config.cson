@@ -4,19 +4,32 @@
   welcome:
     showOnStartup: false
   core:
+    disabledPackages: [
+      "linter-csslint"
+      "auto-update-packages"
+      "markdown-preview-plus"
+    ]
+    packagesWithKeymapsDisabled: [
+      "emmet"
+      "php-cs-fixer"
+    ]
+    customFileTypes:
+      "source.js.jsx": [
+        "js"
+        "jsx"
+      ]
+    openEmptyEditorOnStart: false
+    projectHome: "/users/timkelty/Repos"
     themes: [
       "one-dark-ui"
       "tomorrow-night-eighties-syntax"
     ]
     excludeVcsIgnoredPaths: false
-    disabledPackages: [
-      "linter-csslint"
-      "remote-atom"
-    ]
-    packagesWithKeymapsDisabled: [
-      "emmet"
-    ]
-  linter: {}
+  linter:
+    errorPanelHeight: 118
+    lintOnFlyInterval: 800
+    showErrorInline: false
+    lintOnFly: false
   "merge-conflicts": {}
   "tree-view":
     hideIgnoredNames: true
@@ -25,15 +38,14 @@
   "find-and-replace":
     openProjectFindResultsInRightPane: true
   "linter-jscs":
-    fixOnSave: true
     esnext: true
+    displayAs: "warning"
   "linter-php": {}
   "atom-beautify":
     _analyticsUserId: "669b6009-2062-4589-8996-5aaccb1f8ed0"
     html_wrap_attributes: "force"
   editor:
     invisibles: {}
-    fontSize: 16
   "js-autoimport": {}
   blame: {}
   "git-blame":
@@ -46,3 +58,15 @@
   emmet: {}
   "close-tags": {}
   "emmet-simplified": {}
+  "linter-phpcs":
+    executablePath: "/usr/local/bin/phpcs"
+  "language-babel": {}
+  "php-cs-fixer":
+    executablePath: "/usr/local/bin/php-cs-fixer"
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+  "auto-update-packages": {}
+  "autohide-tree-view": {}
+  "goto-scope": {}
+  "markdown-preview-plus": {}
+  "markdown-preview": {}

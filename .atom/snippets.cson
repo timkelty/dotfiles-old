@@ -28,3 +28,43 @@
       	$0
       {/foreach}
     '''
+
+'text.html, text.html.twig':
+  suitButton:
+    prefix: 'button'
+    body: '''
+      <button type="{$1:submit}" class="Button Button--${2:default}">$0</button>
+    '''
+
+'.source.php':
+  'var_dump()':
+    prefix: 'vd'
+    body: '''
+      var_dump();$0
+    '''
+
+  'exit(var_dump($var))':
+    prefix: 'evd'
+    body: '''
+      exit(var_dump($1));$0
+    '''
+
+'.source.js':
+  'anonymous function':
+    'prefix': 'f'
+    'body': '''
+      function($1) {
+        $2
+      }
+    '''
+'.source.css':
+  'position:':
+    "prefix": 'f'
+    "body": "position:${1:relative};"
+'.source.css':
+  'position:':
+    "prefix": 'f'
+    "body": "position:${1:relative};"
+  'linecomment:':
+    "prefix": '**',
+    "body": "/* $1 */"
