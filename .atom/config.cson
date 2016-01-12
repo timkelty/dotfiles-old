@@ -7,7 +7,8 @@
     disabledPackages: [
       "linter-csslint"
       "auto-update-packages"
-      "markdown-preview-plus"
+      "git-plus"
+      "indent-toggle-on-paste"
     ]
     packagesWithKeymapsDisabled: [
       "emmet"
@@ -70,3 +71,5 @@
   "goto-scope": {}
   "markdown-preview-plus": {}
   "markdown-preview": {}
+  "jscs-fixer":
+    esprima: true
