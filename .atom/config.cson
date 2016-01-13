@@ -8,7 +8,6 @@
       "linter-csslint"
       "auto-update-packages"
       "git-plus"
-      "indent-toggle-on-paste"
     ]
     packagesWithKeymapsDisabled: [
       "emmet"
@@ -56,7 +55,8 @@
   "remote-atom":
     keep_alive: true
     launch_at_startup: true
-  emmet: {}
+  emmet:
+    extensionsPath: "~/.dotfiles/.emmet"
   "close-tags": {}
   "emmet-simplified": {}
   "linter-phpcs":
