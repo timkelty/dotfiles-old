@@ -1,75 +1,77 @@
 "*":
-  "exception-reporting":
-    userId: "a81d3f92-6afc-f1c5-de14-271b6cb3b1ac"
-  welcome:
-    showOnStartup: false
+  "atom-alignment": {}
+  "atom-beautify":
+    _analyticsUserId: "669b6009-2062-4589-8996-5aaccb1f8ed0"
+    html_wrap_attributes: "force"
+  "auto-update-packages": {}
+  "autohide-tree-view": {}
+  blame: {}
+  "close-tags": {}
   core:
-    disabledPackages: [
-      "linter-csslint"
-      "auto-update-packages"
-      "git-plus"
-    ]
-    packagesWithKeymapsDisabled: [
-      "emmet"
-      "php-cs-fixer"
-    ]
     customFileTypes:
       "source.js.jsx": [
         "js"
         "jsx"
       ]
+    disabledPackages: [
+      "linter-csslint"
+      "auto-update-packages"
+      "html-entities"
+    ]
+    excludeVcsIgnoredPaths: false
     openEmptyEditorOnStart: false
+    packagesWithKeymapsDisabled: [
+      "emmet"
+      "php-cs-fixer"
+      "git-plus"
+    ]
     projectHome: "/users/timkelty/Repos"
     themes: [
       "one-dark-ui"
       "tomorrow-night-eighties-syntax"
     ]
-    excludeVcsIgnoredPaths: false
-  linter:
-    errorPanelHeight: 118
-    lintOnFlyInterval: 800
-    showErrorInline: false
-    lintOnFly: false
-  "merge-conflicts": {}
-  "tree-view":
-    hideIgnoredNames: true
-  "linter-htmlhint": {}
-  "atom-alignment": {}
-  "find-and-replace":
-    openProjectFindResultsInRightPane: true
-  "linter-jscs":
-    esnext: true
-    displayAs: "warning"
-  "linter-php": {}
-  "atom-beautify":
-    _analyticsUserId: "669b6009-2062-4589-8996-5aaccb1f8ed0"
-    html_wrap_attributes: "force"
   editor:
     invisibles: {}
-  "js-autoimport": {}
-  blame: {}
+  emmet:
+    extensionsPath: "~/.dotfiles/.emmet"
+  "emmet-simplified": {}
+  "exception-reporting":
+    userId: "a81d3f92-6afc-f1c5-de14-271b6cb3b1ac"
+  "find-and-replace":
+    openProjectFindResultsInRightPane: true
   "git-blame":
     columnWidth: 300
-  tabs:
-    usePreviewTabs: true
+  "git-plus": {}
+  "goto-scope": {}
+  "js-autoimport": {}
+  "jscs-fixer":
+    esprima: true
+  "language-babel": {}
+  linter:
+    errorPanelHeight: 118
+    lintOnFly: false
+    lintOnFlyInterval: 800
+    showErrorInline: false
+  "linter-htmlhint": {}
+  "linter-jscs":
+    displayAs: "warning"
+    esnext: true
+  "linter-php": {}
+  "linter-phpcs":
+    executablePath: "/usr/local/bin/phpcs"
+  "markdown-preview": {}
+  "markdown-preview-plus": {}
+  "merge-conflicts": {}
+  "php-cs-fixer":
+    executablePath: "/usr/local/bin/php-cs-fixer"
   "remote-atom":
     keep_alive: true
     launch_at_startup: true
-  emmet:
-    extensionsPath: "~/.dotfiles/.emmet"
-  "close-tags": {}
-  "emmet-simplified": {}
-  "linter-phpcs":
-    executablePath: "/usr/local/bin/phpcs"
-  "language-babel": {}
-  "php-cs-fixer":
-    executablePath: "/usr/local/bin/php-cs-fixer"
+  tabs:
+    usePreviewTabs: true
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
   whitespace:
     ignoreWhitespaceOnCurrentLine: false
-  "auto-update-packages": {}
-  "autohide-tree-view": {}
-  "goto-scope": {}
-  "markdown-preview-plus": {}
-  "markdown-preview": {}
-  "jscs-fixer":
-    esprima: true
