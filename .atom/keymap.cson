@@ -28,6 +28,7 @@
 
 '.platform-darwin':
   'cmd-|': "window:focus-next-pane",
+  'cmd-i': "tree-ignore:toggle"
 
 '.platform-darwin atom-text-editor:not([mini])':
   'ctrl-left': 'editor:move-to-previous-subword-boundary'

@@ -34,3 +34,4 @@ npm-debug.log
 gitignore
 
 .bumprc
+.atomignore

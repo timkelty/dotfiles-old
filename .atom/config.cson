@@ -4,6 +4,8 @@
     _analyticsUserId: "669b6009-2062-4589-8996-5aaccb1f8ed0"
     html_wrap_attributes: "force"
   "auto-update-packages": {}
+  "autocomplete-plus":
+    confirmCompletion: "enter"
   "autohide-tree-view": {}
   blame: {}
   "close-tags": {}
@@ -64,13 +66,17 @@
   "merge-conflicts": {}
   "php-cs-fixer":
     executablePath: "/usr/local/bin/php-cs-fixer"
+  react: {}
   "remote-atom":
     keep_alive: true
     launch_at_startup: true
   tabs:
     usePreviewTabs: true
+  "tree-ignore":
+    enabled: false
   "tree-view":
     hideIgnoredNames: true
+    squashDirectoryNames: true
   welcome:
     showOnStartup: false
   whitespace:
