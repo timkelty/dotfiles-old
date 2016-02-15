@@ -25,6 +25,7 @@ alias startpg="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/serv
 alias lll="stat -c '%A %a %n' *"
 alias ll="ls -lash"
 alias cwd="pwd"
+alias craftman="/Users/timkelty/.craftman/bin/craftman"
 
 # git
 alias pullall="git submodule foreach git pull origin master"
