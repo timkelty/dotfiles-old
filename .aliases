@@ -50,3 +50,24 @@ alias gr="grunt"
 
 # rails
 alias railss="./script/rails server"
+
+# Docker
+alias dmstart="docker-machine start default"
+# alias dmeval="eval $(docker-machine env default)"
+alias dmstop="docker-machine stop default"
+
+# build a docker image based on a Dockerfile in current dir
+# And do it after every `git pull` because gems might change
+alias dcb="docker-compose build"
+
+# start the built image
+alias dcu="docker-compose up"
+
+# stop the built image
+alias dcd="docker-compose down"
+
+# run a one-off command in the container
+alias dcr="docker-compose run"
+
+# "transient run" removes the container after it finishes.
+alias dctr="docker-compose run —rm"
