@@ -5,5 +5,6 @@
   "brace_style": "collapse",
   "space_before_conditional": true,
   "wrap_attributes": false,
-  "end_with_newline": true
+  "end_with_newline": true,
+  "preserve_newlines": false
 }
